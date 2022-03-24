@@ -1,1 +1,1 @@
-My Readme file
+More pointers, array and string
