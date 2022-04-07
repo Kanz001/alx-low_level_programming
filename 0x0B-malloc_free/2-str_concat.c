@@ -30,10 +30,10 @@ char *str_concat(char *s1, char *s2)
 		free(strout);
 		return (NULL);
 	}
-		if (strout == NULL)
-			return (NULL);
+	if (strout == NULL)
+		return (NULL);
 	for (j = 0; j < count1; j++)
-			strout[j] = s1[j];
+		strout[j] = s1[j];
 	i = count2;
 	for (count2 = 0; count2 <= i; j++, count2++)
 		strout[j] = s2[count2];
